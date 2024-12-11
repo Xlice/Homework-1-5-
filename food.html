@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charsets="utf-8">
+    <title>Website by Maks</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html * {
+            font-family: 'Inter';
+        }
+        #img1 {
+            width: 25px;
+            margin-top: 35px;
+        }
+        #main {
+            margin-left: 25px;
+        }
+        h1 {
+            font-weight: 600;
+            font-size: 32px;
+        }
+        input {
+            border-radius: 25px;
+            background-color: #EFEFEF;
+            border: 0;
+            width: 550px;
+            height: 44px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        #menuBig {
+            display: flex;
+        }
+        #menuBig img {
+            border-radius: 25px;
+            width: 74px;
+            padding: 30px;
+        }
+        #menuBig div {
+            margin: 15px;
+        }
+        #menuBig p {
+            font-size: 20px;
+            font-weight: 500;
+            text-align: center;
+            
+        }
+        #food {
+            background-color: #EAE2B7;
+        }
+        #drinks {
+            background-color: #EFEFEF;
+            height: 74px;
+        }
+        #dessert {
+            background-color: #EFEFEF;
+        }
+        #menuSmall {
+            display: flex;
+            flex-direction: column;
+        }
+        #menuSmall div {
+            display: flex;
+            flex-direction: row;
+            border: 2px solid #E5E5E5;
+            width: 500px;
+        }
+        #menuSmall div div { 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 0;
+            margin-left: 10px;
+        }
+
+        #menuSmall img {
+            width: 74px;
+        }
+        .red {
+            color: #D62828;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+        <img id="img1" src="img2/heroicons-solid_menu-alt-2.png" alt="">
+        <h1>Menu</h1>
+        <input type="search" placeholder="Search food here">
+        <div id="menuBig">
+            <div>
+                <img id="food" src="img2/ff1e5d27955bec12691ebb2acc48e6b4.png" alt="">
+                <p>Food</p>
+            </div>
+            <div>
+                <img id="drinks" src="img2/emojione_tropical-drink.png" alt="">
+                <p style="color: #EFEFEF;">Drinks</p>
+            </div>
+            <div>
+                <img id="dessert" src="img2/emojione_ice-cream.png" alt="">
+                <p style="color: #EFEFEF;">Dessert</p>
+            </div>
+        </div>
+        <h2>Burger</h2>
+        <div id="menuSmall">
+            <div>
+                <img src="img2/5882482de81acb96424ffaac 1.png" alt="">
+                <div>
+                    <p>Big Mac</p>
+                    <p class="red">Rs 240</p>
+                </div>
+            </div>
+            <div>
+                <img src="img2/590607a10cbeef0acff9a646 1.png" alt="">
+                <div>
+                    <p>KFC Double</p>
+                    <p class="red">Rs 252</p>
+                </div>
+            </div>
+            <div>
+                <img src="img2/58824b29e81acb96424ffab8 1.png" alt="">
+                <div>
+                    <p>Fish Burger</p>
+                    <p class="red">Rs 220</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charsets="utf-8">
+    <title>Website by Maks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        tr {
+            border: 2px solid black;
+        }
+        td {
+            border: 2px solid black;
+        } 
+    </style>
+  </head>
+  <body>
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M0-360v-240h60v80h80v-80h60v240h-60v-100H60v100H0Zm310 0v-180h-70v-60h200v60h-70v180h-60Zm170 0v-200q0-17 11.5-28.5T520-600h180q17 0 28.5 11.5T740-560v200h-60v-180h-40v140h-60v-140h-40v180h-60Zm320 0v-240h60v180h100v60H800Z"/></svg>
+        <form>
+            <label for="birthdaytime">Birthday (date and time):</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor">
+            <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <input type="hidden" id="custId" name="custId" value="3487">
+            <input type="submit" value="Submit">
+            <label for="bdaymonth">Birthday (month and year):</label>
+            <input type="month" id="bdaymonth" name="bdaymonth">
+            <label for="quantity">Quantity (between 1 and 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5">
+        </form>
+        <table>
+            <tr>
+                <th>Назва книги</th>
+                <th>Рік випуску</th>
+                <th>Рейтинг</th>
+            </tr>
+            <tr>
+                <td>1984</td>
+                <td>1949</td>
+                <td>Джордж Орвелл</td>
+            </tr>
+            <tr>
+                <td>The Elder Scrolls: Офіційна кулінарна книга</td>
+                <td>2019</td>
+                <td>Хельсеа Монрої-Кассель</td>
+            </tr>
+            <tr>
+                <td>У тіні вівтарів</td>
+                <td>1933</td>
+                <td>Вінцас Миколайтіс-Путінас</td>
+            </tr>
+        </table>
+    </div>
+  </body>
+</html>
